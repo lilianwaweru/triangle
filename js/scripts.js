@@ -5,4 +5,6 @@ function findout(){
   var triangle = [a,b,c];
   if(triangle[0]==triangle[1] && triangle[1]==triangle[2]){
     alert("EQUILATERAL TRIANGLE");
-  }
+  } else if(triangle[0]==triangle[1] && triangle[1]==triangle[2] && triangle[0]==triangle[2]){
+    alert("ISOSCELES TRIANGLE");
+  } else if
