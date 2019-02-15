@@ -7,4 +7,6 @@ function findout(){
     alert("EQUILATERAL TRIANGLE");
   } else if(triangle[0]==triangle[1] && triangle[1]==triangle[2] && triangle[0]==triangle[2]){
     alert("ISOSCELES TRIANGLE");
-  } else if
+  } else if(triangle[0]==!triangle[1] && triangle[1]==!triangle[2] && triangle[0]==!triangle[2]){
+    alert("SCALENE TRIANGLE")
+  }
