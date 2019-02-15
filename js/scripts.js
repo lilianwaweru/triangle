@@ -1,12 +1,18 @@
-function findout(){
-  var a=parseInt(document.getElementsByid("length")).value
-  var b=parseInt(document.getElementsByid("Width")).value
-  var c=parseInt(document.getElementsByid("Height")).value
-  var triangle = [a,b,c];
-  if(triangle[0]==triangle[1] && triangle[1]==triangle[2]){
+function out(){
+  var a=parseInt(document.getElementById('length').value);
+  var b=parseInt(document.getElementById('width').value);
+  var c=parseInt(document.getElementById('height').value);
+
+  if(a==b && b==c && c==a){
     alert("EQUILATERAL TRIANGLE");
-  } else if(triangle[0]==triangle[1] && triangle[1]==triangle[2] && triangle[0]==triangle[2]){
-    alert("ISOSCELES TRIANGLE");
-  } else if(triangle[0]==!triangle[1] && triangle[1]==!triangle[2] && triangle[0]==!triangle[2]){
-    alert("SCALENE TRIANGLE")
   }
+  else if(a==b && b==c && a==c){
+    alert("ISOSCELES TRIANGLE");
+  }
+  else if(a!=b && b!=c && a!=c){
+    alert("SCALENE TRIANGLE");
+  }
+  else {
+    alert("Cannot make a Triangle");
+  }
+}
