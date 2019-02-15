@@ -1,15 +1,15 @@
 function out(){
-  var a=parseInt(document.getElementById('length').value);
-  var b=parseInt(document.getElementById('width').value);
-  var c=parseInt(document.getElementById('height').value);
-
-  if(a==b && b==c && c==a){
+  var sidea=parseInt(document.getElementById('length').value);
+  var sideb=parseInt(document.getElementById('width').value);
+  var sidec=parseInt(document.getElementById('height').value);
+  var side=[a,b,c]
+  if(a[0]==b[1] && b[1]==c[2] && c[2]==a[0]){
     alert("EQUILATERAL TRIANGLE");
   }
-  else if(a==b && b==c && a==c){
+  else if(a[0]==b[1] || b[1]==c[2] || a[0]==c[2]){
     alert("ISOSCELES TRIANGLE");
   }
-  else if(a!=b && b!=c && a!=c){
+  else if(a[0]!=b[1] && b[1]!=c[2] && a[0]!=c[2]){
     alert("SCALENE TRIANGLE");
   }
   else {
