@@ -5,3 +5,9 @@ h1{
   color: red;
   background-color: blue;
   font-style: italic;
+  float: center;
+
+}
+body{
+  background-color: orange;
+}
