@@ -11,8 +11,8 @@ h1{
   }
 
 .unimportant{
-  float: left;
+  float: right;
 }
 body{
-  background-color: grey;
+  background-color: blue;
 }
