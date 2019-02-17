@@ -6,11 +6,13 @@ h1{
   background-color:white;
   font-style: italic;
   width: 150px;
-
+  margin-left:50%;
 
   }
 
+.unimportant{
+  float: left;
 }
 body{
-  background-color: orange;
+  background-color: grey;
 }
