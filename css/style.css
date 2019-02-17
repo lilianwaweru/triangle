@@ -5,7 +5,9 @@ h1{
   color: red;
   background-color: white;
   font-style: italic;
-  float: center;
+  width: 50;
+
+  }
 
 }
 body{
