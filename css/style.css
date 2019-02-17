@@ -3,9 +3,10 @@ h1{
 }
 .important{
   color: red;
-  background-color: white;
+  background-color:white;
   font-style: italic;
-  width: 50;
+  width: 150px;
+
 
   }
 
